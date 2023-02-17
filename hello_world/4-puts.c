@@ -1,17 +1,11 @@
-/*
- * File: 4-puts.c
- * 
- */
-
 #include <stdio.h>
 
 /**
- * main - "Programming is like building a multilingual
+ * main - "C is Fun"
  *
  *
- * Return 0.
+ * Return: 0.
  */
-
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
