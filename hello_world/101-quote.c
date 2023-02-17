@@ -2,7 +2,7 @@
 
 /**
  * main - 101
- *
+ * description - output a text without prinf or puts commands
  *
  * Return Error 1
  */
