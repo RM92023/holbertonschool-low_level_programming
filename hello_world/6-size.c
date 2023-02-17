@@ -8,11 +8,6 @@
  */
 int main(void)
 {
-int number;
-long int long_number;
-long long int long_long_number;
-char number_char;
-float number_float;	
 printf("Size of a char: %lu byte(s)\n", sizeof(number));
 printf("Size of an int: %lu byte(s)\n", sizeof(long_number));
 printf("Size of a long int: %lu byte(s)\n", sizeof(long_long_number));
