@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - "Programming is like building a multilingual"
- * Return  0.
+ * main - "Programming is like building a multilingual
+ *
+ *
+ * Return 0.
  */
 
 int main(void)
