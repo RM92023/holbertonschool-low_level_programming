@@ -1,10 +1,10 @@
-#include<unistd.h>
+#include <unistd.h>
 
 /**
 * main - function
 * description - output a text without prinf or puts commands
 *
-* Return Error 1
+* Return: Error 1
 */
 int main(void)
 {
