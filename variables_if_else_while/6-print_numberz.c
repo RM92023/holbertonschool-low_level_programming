@@ -10,7 +10,7 @@ int main(void)
 int log;
 for (log = 0; log < 10; log++)
 {
-putchar(log)
+putchar('0' + log);
 }
 putchar('\n');
 return (0);
