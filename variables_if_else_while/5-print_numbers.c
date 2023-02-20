@@ -10,7 +10,7 @@ int main(void)
 int log;
 for (log = 0; log <= 9; log++)
 {
-printf("%d%c\n", log);
+printf("%s\n", log);
 }
 return (0);
 }
