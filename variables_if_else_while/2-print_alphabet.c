@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-int n;
-for (n = 97; n < 123; n++)
-putchar("%d", n);
+char alphabet;
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+putchar(alphabet);
 return (0);
 }
