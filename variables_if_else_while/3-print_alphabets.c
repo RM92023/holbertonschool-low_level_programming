@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
 * main - Print alphabet in Mayus and Minus
 *
@@ -12,8 +11,13 @@ char Alphabet;
 for (Alphabet = 'a'; Alphabet <= 'z'; Alphabet++)
 {
 putchar(Alphabet);
-putchar(toupper(Alphabet));
-putchar('\n');
 }
+
+for (Alphabet = 'A'; Alphabet <= 'Z'; Alphabet++)
+{
+putchar(Alphabet);
+}
+
+putchar('\n');
 return (0);
 }
