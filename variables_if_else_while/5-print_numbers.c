@@ -12,5 +12,6 @@ for (log = 0; log <= 9; log++)
 {
 printf("%d", log);
 }
+printf('\n');
 return (0);
 }
