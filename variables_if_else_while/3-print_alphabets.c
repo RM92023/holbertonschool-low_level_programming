@@ -8,11 +8,11 @@
 */
 int main(void)
 {
-char Alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-for (int i = 0; Alphabet[i]; ++i)
+char Alphabet;
+for (Alphabet = 'a'; Alphabet <= 'z'; Alphabet++)
 {
-putchar(Alphabet[i]);
-Alphabet[i] = putchar(toupper(Alphabet[i]));
+putchar(Alphabet);
+putchar(toupper(Alphabet));
 putchar('\n');
 }
 return (0);
