@@ -9,8 +9,14 @@
 
 int main () 
 {
-char name = '_putchar';     
-putchar(name);
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
 }
 return(0);
 }
