@@ -19,4 +19,3 @@ putchar('a');
 putchar('r');
 }
 return(0);
-}
