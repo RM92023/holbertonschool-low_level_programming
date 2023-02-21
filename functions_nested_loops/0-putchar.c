@@ -1,12 +1,11 @@
-#include <main.h>
+#include <stdio.h>
 
-/**
- * main - print _putchar
- *
- * Return: Always 0.
- *
- */
-int main(void)
-{
-putchar("_putchar");
+int main () {
+   char ch;
+
+   for(ch = 'A' ; ch <= 'Z' ; ch++) {
+      putchar(ch);
+   }
+   
+   return(0);
 }
