@@ -9,7 +9,7 @@
 
 int main () 
 {
-char name = "_putchar";     
+char name = '_putchar';     
 putchar(name);
 }
 return(0);
