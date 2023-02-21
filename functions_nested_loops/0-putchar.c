@@ -1,11 +1,16 @@
 #include <stdio.h>
 
-int main () {
-   char ch;
+/**
+ * main - function _putchar
+ *
+ * Return: Always 0.
+ *
+ */
 
-   for(ch = 'A' ; ch <= 'Z' ; ch++) {
-      putchar(ch);
-   }
-   
-   return(0);
+int main () 
+{
+char name = "_putchar";     
+putchar(name);
+}
+return(0);
 }
