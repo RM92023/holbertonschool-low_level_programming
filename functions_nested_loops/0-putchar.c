@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - function _putchar
- *
- * Return: Always 0.
- *
- */
-
-int main () 
+* main - function _putchar
+*
+* Return: Always 0.
+*
+*/
+int main(void)
 {
 putchar('_');
 putchar('p');
@@ -18,5 +17,5 @@ putchar('h');
 putchar('a');
 putchar('r');
 putchar('\n');
-return(0);
+return (0);
 }
