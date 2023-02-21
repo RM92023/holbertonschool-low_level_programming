@@ -1,12 +1,15 @@
-#include <unistd.h>
+#ifndef holbertonProjects
+#define holbertonProjects
 
 /**
- * main - writes the character c to stdout
- * 
- * Return: On success 1.
+ * main - functions
+ *
+ * Return: Always 0.
  *
  */
-int _putchar(char c)
-{
-return (write(1, &c, 1));
-}
+
+
+int _putchar(char c);
+void print_alphabet(void);
+
+#endif
