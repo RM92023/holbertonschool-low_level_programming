@@ -14,6 +14,8 @@ for (numbers = 0; numbers <= 9; numbers++)
 _putchar('0');
 for (multiplys = 1; multiplys <= 9; multiplys++)
 {
+_putchar(',');
+_putchar(' ');
 products = numbers * multiplys;
 if (products <= 9)
 _putchar(' ');
