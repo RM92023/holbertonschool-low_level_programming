@@ -18,6 +18,9 @@ else if ((count % 3) == 0)
 printf("Fizz");
 else
 printf("%d", count);
+
+if(count == 100)
+continue;
 printf(" ");
 }
 printf("\n");
