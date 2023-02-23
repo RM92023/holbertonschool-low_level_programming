@@ -19,7 +19,7 @@ printf("Fizz");
 else
 printf("%d", count);
 
-if(count == 100)
+if (count == 100)
 continue;
 printf(" ");
 }
