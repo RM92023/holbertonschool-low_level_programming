@@ -14,11 +14,10 @@ if (size > 0)
 for (high = 0; high < size; high++)
 {
 for (width = 0; width < size; width++)
-	_putchar('#');
-
+_putchar('#');
 if (high == size - 1)
-		continue;
-	_putchar('\n');
+continue;
+_putchar('\n');
 }
 }
 _putchar('\n');
