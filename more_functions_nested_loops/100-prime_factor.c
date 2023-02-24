@@ -2,7 +2,7 @@
 /**
  * main - print prime
  *
- * Return: prime numbers  
+ * Return: prime numbers
  *
  */
 int main(void)
