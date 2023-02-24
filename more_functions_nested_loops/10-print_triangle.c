@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_triangle - triangle in hashtag
- * @size
+ * @size - redimension
  * Return: triangle in hashtag
  *
  */
