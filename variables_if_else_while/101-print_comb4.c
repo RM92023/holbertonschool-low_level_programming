@@ -8,17 +8,17 @@
  */
 int main(void)
 {
-int digit1, digit2, digit3;
-for (digit1 = 0; digit1 < 8; digit1++)
+int number1, number2, number3;
+for (number1 = 0; number1 < 8; number1++)
 {
-for (digit2 = digit1 + 1; digit2 < 9; digit2++)
+for (number2 = number2 + 1; number2 < 9; number2++)
 {
-for (digit3 = digit2 + 1; digit3 < 10; digit3++)
+for (number3 = number2 + 1; number3 < 10; number3++)
 {
-putchar((digit1 % 10) + '0');
-putchar((digit2 % 10) + '0');
-putchar((digit3 % 10) + '0');
-if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+putchar((number1 % 10) + '0');
+putchar((number2 % 10) + '0');
+putchar((number3 % 10) + '0');
+if (number1 == 7 && number2 == 8 && number3 == 9)
 continue;
 putchar(',');
 putchar(' ');
