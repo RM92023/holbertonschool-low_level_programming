@@ -19,6 +19,14 @@ for (multiply = 1; multiply <= n; multiply++)
 _putchar(',');
 _putchar(' ');
 result = number * multiply;
+
+if (result <= 99)
+_putchar(' ');
+
+if (result <= 9)
+_putchar(' ');
+
+
 if (result >= 100)
 {
 _putchar((result / 100) + '0');
