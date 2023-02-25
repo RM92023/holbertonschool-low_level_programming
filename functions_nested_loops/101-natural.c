@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-int increment, sumatory;
+int increment, sumatory = 0;
 for (increment = 0; increment < 1024; increment++)
 {
 if ((increment % 3) == 0 || (increment % 5) == 0)
-sumatory = sumatory +1;
+sumatory = sumatory + 1;
 }
 printf("%d\n", sumatory);
 return (0);
