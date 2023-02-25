@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table - prints nine times table, starting in zero
+ * print_times_table - prints nine times table, starting in zero
  * @n: parameter
  * Return: nine Times table of multiply
  *
