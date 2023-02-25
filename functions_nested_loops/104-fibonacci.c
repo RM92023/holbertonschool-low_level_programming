@@ -19,10 +19,10 @@ printf("%lu, ", sumatory);
 fibonacci1 = fibonacci2;
 fibonacci2 = sumatory;
 }
-fib1_half1 = fibonacci1 / 10000000000;
-fib2_half1 = fibonacci2 / 10000000000;
-fib1_half2 = fibonacci1 % 10000000000;
-fib2_half2 = fibonacci2 % 10000000000;
+fibonacci1_half1 = fibonacci1 / 10000000000;
+fibonacci2_half1 = fibonacci2 / 10000000000;
+fibonacci1_half2 = fibonacci1 % 10000000000;
+fibonacci2_half2 = fibonacci2 % 10000000000;
 for (count = 93; count < 99; count++)
 {
 half1 = fibonacci1_half1 + fibonacci2_half1;
