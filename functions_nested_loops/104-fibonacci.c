@@ -10,7 +10,8 @@ int main(void)
 {
 int count;
 unsigned long fibonacci1 = 0, fibonacci2 = 1, sumatory;
-unsigned long fibonacci1_half1, fibonacci1_half2, fibonacci2_half1, fibonacci2_half2;
+unsigned long fibonacci1_half1, fibonacci1_half2,
+	      fibonacci2_half1, fibonacci2_half2;
 unsigned long half1, half2;
 for (count = 0; count < 92; count++)
 {
