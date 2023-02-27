@@ -2,11 +2,10 @@
 #include <stdio.h>
 /**
  * _puts - prints string
- * @*str: parameter
+ * @str: parameter
  * Return: functions
  *
  */
-
 void _puts(char *str)
 {
 puts(str);

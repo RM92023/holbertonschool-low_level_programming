@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  * _strlen - return length of a string
- * @*s: parameter
+ * @s: parameter
  * Return: character or length of characters
  *
  */
