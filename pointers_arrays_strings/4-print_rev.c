@@ -10,10 +10,23 @@
 
 void print_rev(char *s)
 {
-int length = 0, text;
-while (s[text++])
-length++;
-for (text = length - 1; text >= 0; text--)
-_putchar(s[text]);
-_putchar('\n');
+int length, i;
+char *start, *end, temp;
+
+len = strlen(strl);
+start = s;
+end = s;
+
+for (i = 0; i < length - 1; i++)
+	end++
+
+for (i = 0; i < length / 2; i++)
+{
+temp = *end;
+*end = *start;
+*start = temp;
+
+start++;
+end--;
+}
 }
