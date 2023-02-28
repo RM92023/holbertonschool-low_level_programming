@@ -10,14 +10,10 @@
 
 void print_rev(char *s)
 {
-{
-char *p1, *p2;
-if (!s || !*s)
-for (p1 = s, p2 = s + strlen(s) - 1; p2 > p1; ++p1, --p2)
-{
-*p1 ^= *p2;
-*p2 ^= *p1;
-*p1 ^= *p2;
-}
-}
+int length = 0, text;
+while (s[text++])
+length++;
+for (text = length - 1; text >= 0; text--)
+_putchar(s[text]);
+_putchar('\n');
 }
