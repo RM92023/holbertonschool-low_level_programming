@@ -14,7 +14,7 @@ int count;
 for (count = 0 ; count < n ; count++)
 {
 printf("%d", *(a + count));
-if (i < n - 1)
+if (count < n - 1)
 {
 printf(", ");
 }
