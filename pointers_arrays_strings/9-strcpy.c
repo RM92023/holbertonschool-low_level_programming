@@ -14,7 +14,6 @@ while (*src != '\0')
 {
 dest[initial] = *src;
 initial++;
-src++;
 }
 return (dest);
 }
