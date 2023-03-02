@@ -1,1 +1,1 @@
-0-reset_to_98
+char *_strcat(char *dest, char *src);
