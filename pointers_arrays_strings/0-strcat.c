@@ -10,7 +10,13 @@
  */
 char *_strcat(char *dest, char *src)
 {
-char *concat;
-concat = strcat(dest, src);
-return (concat);
+int text1, text2;
+for (text1 = 0; dest[text1] != '\0';text1++)
+;
+for (text2 = 0; src[text2] != '\0'; text2++)
+{
+dest[text1] = src[text2];
+text1++;
+}
+return (dest);
 }
