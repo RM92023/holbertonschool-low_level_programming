@@ -1,6 +1,4 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
 /**
  * _strcat - concat two strings
  * @dest: parameter
@@ -11,7 +9,7 @@
 char *_strcat(char *dest, char *src)
 {
 int text1, text2;
-for (text1 = 0; dest[text1] != '\0';text1++)
+for (text1 = 0; dest[text1] != '\0'; text1++)
 ;
 for (text2 = 0; src[text2] != '\0'; text2++)
 {
