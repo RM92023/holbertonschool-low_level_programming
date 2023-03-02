@@ -3,14 +3,14 @@
 #include <stdio.h>
 /**
  * _strcat - concat two strings
- * @dest
- * @src
+ * @dest: parameter
+ * @src: parameter
  * Return: strings
  *
  */
 char *_strcat(char *dest, char *src)
 {
-strcat(dest, src);
-printf("%s", dest);
-return (0);
+char *concat;
+concat = strcat(dest, src);
+return (concat);
 }
