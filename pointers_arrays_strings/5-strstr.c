@@ -14,13 +14,12 @@ char *count;
 for (; *haystack; haystack++)
 {
 	count = haystack;
-for (; *needle == *haystack; needle++)
+while (*needle == *haystack)
 {
-	haystack++;
+	haystack++, needle++;
 }
 if (*needle == '\0')
 return (count);
-haystack++;
 }
 return (0);
 }
