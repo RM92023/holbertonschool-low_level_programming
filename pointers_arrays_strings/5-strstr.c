@@ -20,6 +20,7 @@ for (; *needle == *haystack; needle++)
 }
 if (*needle == '\0')
 return (count);
+haystack++;
 }
 return (0);
 }
