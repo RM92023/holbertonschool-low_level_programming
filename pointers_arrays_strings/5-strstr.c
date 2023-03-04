@@ -21,5 +21,5 @@ for (; *needle == *haystack; needle++)
 if (*needle == '\0')
 return (count);
 }
-return ('\0');
+return (0);
 }
