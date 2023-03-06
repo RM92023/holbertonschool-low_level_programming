@@ -2,11 +2,13 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * _sqtr_recursion - return natural square root of a number
+ * _sqrt_execution - function for validate if the number have root
  * @n: parameter
- * Return: natural square root of a number
+ * @root: parameter
+ * Return: 0
  *
  */
+
 
 int _sqrt_execution(int n, int root)
 {
@@ -17,6 +19,15 @@ return (-1);
 
 return (_sqrt_execution(n, root + 1));
 }
+
+
+/**
+ * _sqrt_recursion - return natural square root of a number
+ * @n: parameter
+ * Return: natural square root of a number
+ *
+ */
+
 
 int _sqrt_recursion(int n)
 {
