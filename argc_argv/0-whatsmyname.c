@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - print name y rename
- *
+ * @argc: parameter
+ * @argv: parameter
  *
  * Return: 0
  *
