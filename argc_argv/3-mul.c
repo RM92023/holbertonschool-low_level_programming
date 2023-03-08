@@ -20,6 +20,6 @@ return (1);
 num1 = atoi(argv[1]);
 num2 = atoi(argv[2]);
 resultado = num1 *num2;
-printf("%d x %d = %d\n", num1, num2, resultado);
+printf("%d\n", resultado);
 return (0);
 }
