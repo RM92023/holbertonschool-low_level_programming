@@ -2,12 +2,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
+ * _strdup - function for print Duplicate
+ * @str: parameter
  *
- *
- *
- *
- *
- *
+ * Return: 0
  *
  */
 char *_strdup(char *str)
