@@ -22,6 +22,7 @@ else
 printf("(nil)%s\n", d->name);
 printf("(nil)%6f\n", d->age);
 printf("(nil)%s\n", d->owner);
-}
+
 return;
+}
 }
