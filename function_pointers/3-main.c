@@ -22,14 +22,14 @@ operations = argv[2];
 b_int = atoi(argv[3]);
 result = operations && *operations == '+' ? a_int + b_int :
 operations && *operations == '-' ? a_int - b_int :
-operations && *operations == '*' ? a_int * b_int :
+operations && *operations == '*' ? a_int *b_int :
 operations && *operations == '/' && b_int != 0 ? a_int / b_int :
 operations && *operations == '%' && b_int != 0 ? a_int % b_int :
 0;
 if (!result)
 {
 puts("Error");
-return (*operations == '/' ? 100 : 99);
+return (*operations == '/' ? 99 : 100);
 }
 printf("%d\n", result);
 return (0);
