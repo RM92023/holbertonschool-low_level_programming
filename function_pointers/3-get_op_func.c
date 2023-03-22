@@ -1,5 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * get_op_func - principal function
  * @s: parameter
@@ -18,13 +19,13 @@ op_t ops[] = {
 {NULL, NULL}
 };
 
-op_t *op = ops;
+op_t *operations = ops;
 
-while (op->op != NULL)
+while (operations->op != NULL)
 {
-if (op->op[0] == *s)
-	return (op->f);
-op++;
+if (operations->op[0] == *s)
+	return (operations->f);
+operations++;
 }
 return (NULL);
 }
