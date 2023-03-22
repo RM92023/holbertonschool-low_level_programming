@@ -3,7 +3,7 @@
 
 /**
  * main - more functions and loops
- *
+ * @c: parameter
  * Return: Always 0.
  *
  */
