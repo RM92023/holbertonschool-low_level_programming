@@ -6,4 +6,4 @@
 4-main.c
 
 #Ignoring the file with function _puchart.c
-putchar.c
+_putchar.c
