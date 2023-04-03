@@ -1,6 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -12,7 +13,7 @@
  *
  * Description: singly linked list node structure
  *
- *Return: 0
+ * Return: 0
  */
 typedef struct list_s
 {
