@@ -4,3 +4,6 @@
 2-main.c
 3-main.c
 4-main.c
+
+#Ignoring the file with function _puchart.c
+_puchart.c
