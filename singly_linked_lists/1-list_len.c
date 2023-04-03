@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- * print_list - this function prints the list of elements
+ * list_len - this function prints the list of elements
  * @h: the header
  *
  * Return: 0
