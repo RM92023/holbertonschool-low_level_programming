@@ -3,7 +3,7 @@
 /**
  * print_binary - print binary information about the current process
  * @num: the number of bytes to print
- * 
+ *
  * Return: the number of bytes printed
  */
 
