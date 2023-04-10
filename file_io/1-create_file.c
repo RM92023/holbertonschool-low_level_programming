@@ -19,7 +19,7 @@ return (-1);
 }
 if (!text_content)
 {
-return (1);
+text_content = "";
 }
 fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
 if (fd == -1)
