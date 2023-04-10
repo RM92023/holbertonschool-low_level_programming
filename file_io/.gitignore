@@ -1,0 +1,10 @@
+#Ignoring main files for performance reasons
+0-main.c
+1-main.c
+2-main.c
+
+#Ignoring _putchar file 
+_putchar.c
+
+#Ignoring Requiescat file, is only used for text
+Requiescat
